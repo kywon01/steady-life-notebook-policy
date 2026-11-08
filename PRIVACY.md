@@ -9,14 +9,14 @@ The app uses **YouTube API Services**. By using the app, you agree to be bound b
 Information is also handled under the [Google Privacy Policy](https://policies.google.com/privacy) ( http://www.google.com/policies/privacy ).
 
 ## What the app accesses
-The app requests a single Google permission: `https://www.googleapis.com/auth/youtube.upload`. It is used only to:
-- upload videos to the YouTube channel of the Google account that authorized it (`videos.insert`), including scheduling their publish time, and
-- set the thumbnail of those videos (`thumbnails.set`).
+The app requests these Google permissions, only for the channel of the Google account that authorized it:
+- `https://www.googleapis.com/auth/youtube.upload` — to upload the owner's videos (`videos.insert`, including scheduling their publish time) and set their thumbnails (`thumbnails.set`).
+- `https://www.googleapis.com/auth/yt-analytics.readonly` and `https://www.googleapis.com/auth/youtube.readonly` — **read-only**, to read the owner's own channel statistics (views, average view percentage, subscribers gained, likes) and the list of the owner's own uploaded videos, so the owner can see which topics perform well.
 
-The app does not read, list, change, or delete any other YouTube or Google data, and it does not access any other user's data.
+The app does not change or delete any YouTube or Google data, and it does not access any other user's or channel's data. Statistics are stored only on the owner's computer as a local report.
 
 ## What data is stored
-- An OAuth token for the owner's own Google account, stored only on the owner's computer.
+- OAuth tokens for the owner's own Google account and local copies of the owner's own channel statistics, stored only on the owner's computer.
 - No personal data of any other person is collected, stored, or shared. The app does not use cookies or analytics.
 
 ## Sharing
