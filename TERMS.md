@@ -2,7 +2,7 @@
 
 Last updated: November 8, 2026
 
-Steady Life Notebook ("the app") is a personal, single-user command-line tool. It is used only by its owner to upload the owner's own videos to the owner's own YouTube channel, "든든 생활수첩" (@deundeun-lifenote). It is not offered, sold, or distributed to anyone else.
+Steady Life Notebook ("the app") is a personal, single-user command-line tool. It is used only by its owner to upload the owner's own videos to the owner's own YouTube channel, "든든생활노트" (@deundeun-lifenote). It is not offered, sold, or distributed to anyone else.
 
 1. **YouTube Terms.** The app uses YouTube API Services. By using the app, you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms).
 2. **Privacy.** Use of the app is also subject to the [Steady Life Notebook Privacy Policy](PRIVACY.md) and the [Google Privacy Policy](https://policies.google.com/privacy).

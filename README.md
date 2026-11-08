@@ -1,6 +1,6 @@
-# Steady Life Notebook (든든 생활수첩)
+# Steady Life Notebook (든든생활노트)
 
-Steady Life Notebook is a small personal project that creates short informational videos (YouTube Shorts) about everyday life, healthy habits and retirement preparation, and uploads them to the "든든 생활수첩" YouTube channel ([@deundeun-lifenote](https://www.youtube.com/@deundeun-lifenote)), owned by the same person who operates this project.
+Steady Life Notebook is a small personal project that creates short informational videos (YouTube Shorts) about everyday life, healthy habits and retirement preparation, and uploads them to the "든든생활노트" YouTube channel ([@deundeun-lifenote](https://www.youtube.com/@deundeun-lifenote)), owned by the same person who operates this project.
 
 **This project uses YouTube API Services.** Users of this project agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms).
 
