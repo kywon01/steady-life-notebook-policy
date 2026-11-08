@@ -11,7 +11,7 @@ Information is also handled under the [Google Privacy Policy](https://policies.g
 ## What the app accesses
 The app requests these Google permissions, only for the channel of the Google account that authorized it:
 - `https://www.googleapis.com/auth/youtube.upload` — to upload the owner's videos (`videos.insert`, including scheduling their publish time) and set their thumbnails (`thumbnails.set`).
-- `https://www.googleapis.com/auth/yt-analytics.readonly` — **read-only**, to read the owner's own channel statistics (views, average view percentage, subscribers gained, likes) so the owner can see which topics perform well.
+- `https://www.googleapis.com/auth/yt-analytics.readonly` and `https://www.googleapis.com/auth/yt-analytics-monetary.readonly` — **read-only**, to read the owner's own channel statistics (views, average view percentage, subscribers gained, likes, and, once monetized, the owner's own revenue reports) so the owner can see which topics perform well.
 - `https://www.googleapis.com/auth/youtube.force-ssl` — to manage the owner's own videos on request of the owner: list them, edit titles/descriptions/publish schedule/thumbnails, organize them into the owner's playlists, and read comments on them. The app has no delete function.
 
 The app does not access, change, or delete any other user's or channel's data. Statistics are stored only on the owner's computer as a local report.
