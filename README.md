@@ -4,8 +4,8 @@ Steady Life Notebook is a small personal project that creates short informationa
 
 **This project uses YouTube API Services.** Users of this project agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms).
 
-- Purpose: upload the owner's own videos to the owner's own YouTube channel, set their thumbnails, schedule their publish time, and read the owner's own channel statistics.
-- Access requested from Google: `youtube.upload` (upload), and read-only `yt-analytics.readonly` / `youtube.readonly` (the owner's own channel statistics).
+- Purpose: upload the owner's own videos to the owner's own YouTube channel, set their thumbnails, schedule their publish time, manage their details and playlists, and read the owner's own channel statistics.
+- Access requested from Google: `youtube.upload` (upload), read-only `yt-analytics.readonly` (the owner's own channel statistics), and `youtube.force-ssl` (editing the owner's own videos' details, playlists, and reading their comments; no deletion).
 - This is not a public service. It is used only by its owner and has no other users.
 
 **Privacy Policy:** [PRIVACY.md](PRIVACY.md) · **Terms of Service:** [TERMS.md](TERMS.md)
